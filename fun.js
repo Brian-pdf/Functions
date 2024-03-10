@@ -1,6 +1,6 @@
 function firstLetterName(name) {
     var firstLetter = name [0];
-    alert("The name" + name + " starts with the letter " + firstLetter);
+    alert("The name " + name + " starts with the letter " + firstLetter);
 }
 
 function divisibleByTwo(number) {
@@ -25,5 +25,5 @@ firstLetterName("Alice");
 var isEven = divisibleByTwo(10);
 console.log("Is 10 divisible by 2? " + isEven);
 var numbers = [5, 10, 20, 15];
-var maxNumber = largestNum(numbers);
+var maxNumber = LargestNum(numbers);
 console.log("The largest number in the array is: " + maxNumber);
